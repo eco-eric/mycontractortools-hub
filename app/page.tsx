@@ -63,9 +63,24 @@ export default function LandingPage() {
             </div>
             <h3 className="text-2xl font-bold mb-4">Truficient</h3>
             <p className="text-slate-600 mb-6">
-              Smart energy solutions and advanced HVAC services. Efficiency meets expertise.
+              If you're in the Dallas-Fort Worth area and you need AC services, look to Truficient. Smart savings and sustainable solutions.
             </p>
             <a href="https://truficient.com" className="text-orange-600 font-bold hover:underline">Learn more →</a>
+          </div>
+
+          {/* Energy Brokerage */}
+          <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition border-dashed opacity-80">
+            <div className="w-12 h-12 bg-yellow-100 text-yellow-600 rounded-lg flex items-center justify-center mb-6">
+              <Zap size={28} />
+            </div>
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-2xl font-bold">Energy Brokerage</h3>
+              <span className="bg-yellow-100 text-yellow-700 text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">Coming Soon</span>
+            </div>
+            <p className="text-slate-600 mb-6">
+              Lower your energy bill with our intelligent brokerage platform. Compare rates and save on your monthly utilities automatically.
+            </p>
+            <span className="text-slate-400 font-bold">Building...</span>
           </div>
         </div>
       </main>
